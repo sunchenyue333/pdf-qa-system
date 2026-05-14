@@ -85,6 +85,8 @@ Open `http://localhost:5173`
 5. View the source page citations below each answer
 
 ## Project Structure
+
+```
 pdf-qa-system/
 ├── backend/
 │   ├── app.py              # FastAPI backend
@@ -97,6 +99,7 @@ pdf-qa-system/
 │   └── package.json
 ├── demo.png
 └── README.md
+```
 
 ## License
 
