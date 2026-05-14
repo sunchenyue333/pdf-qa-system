@@ -3,7 +3,7 @@
 An AI-powered PDF question-answering system built with RAG (Retrieval-Augmented Generation).
 Upload any PDF and ask questions in natural language — the AI answers based on the document content and cites the source page.
 
-![Demo](image.png)
+![Demo](demo.png)
 
 ## Features
 
@@ -85,17 +85,18 @@ Open `http://localhost:5173`
 5. View the source page citations below each answer
 
 ## Project Structure
-ai_practice/
-├── app.py              # FastAPI backend
-├── rag.py              # RAG pipeline (development/testing)
-├── uploads/            # Uploaded PDF files
-├── chroma_db/          # Vector database storage
-└── requirements.txt    # Python dependencies
-pdf-qa/
-├── src/
-│   ├── App.vue         # Main application component
-│   └── main.js         # Vue app entry point
-└── package.json
+pdf-qa-system/
+├── backend/
+│   ├── app.py              # FastAPI backend
+│   ├── rag.py              # RAG pipeline (development/testing)
+│   └── requirements.txt    # Python dependencies
+├── frontend/
+│   ├── src/
+│   │   ├── App.vue         # Main application component
+│   │   └── main.js         # Vue app entry point
+│   └── package.json
+├── demo.png
+└── README.md
 
 ## License
 
