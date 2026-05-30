@@ -23,9 +23,10 @@ Upload any PDF and ask questions in natural language — the AI answers based on
 - DeepSeek API (LLM)
 
 **Frontend**
-- Vue 3 + Vite
-- Element Plus (UI components)
-- Axios (HTTP client)
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
 
 ## How It Works
 PDF Upload
@@ -49,7 +50,7 @@ User Question
 ### Backend Setup
 
 ```bash
-cd ai_practice
+cd backend
 python -m venv venv
 venv\Scripts\activate        # Windows
 pip install -r requirements.txt
@@ -69,12 +70,12 @@ uvicorn app:app --reload
 ### Frontend Setup
 
 ```bash
-cd pdf-qa
+cd frontend
 npm install
 npm run dev
 ```
 
-Open `http://localhost:5173`
+Open `http://localhost:3000`
 
 ## Usage
 
